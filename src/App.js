@@ -22,6 +22,7 @@ function App() {
                 <button onClick={() => changeLanguageHandler('ru')}>Русский</button>
             </div>
             <Error>
+                {/*@TODO: не получилось реализовать 'Success.LoadingFinished' без изменения самого компонента <SomeConvenientWidget/> */}
                 <Suspense fallback={<Loader/>}>
                     <SomeConvenientWidget/>
                 </Suspense>
