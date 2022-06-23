@@ -46,7 +46,7 @@ function Loader() {
             setMessage(t('Loading.Third'))
             clearTimeout(thirdPhase)
         }, 3000)
-    }, [])
+    }, [t])
 
     return (
         <div>
