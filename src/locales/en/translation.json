@@ -1,0 +1,7 @@
+{
+  "Loading.First": "The widget is loading",
+  "Loading.Second": "The widget is still loading",
+  "Loading.Third": "The download is taking longer than usual. Please wait for",
+  "Error.Timeout": "Error while loading. Please -- refresh the window",
+  "Success.LoadingFinished": "The widget is loaded!"
+}
